@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../include/tnn/core/macro.h
+stdio.h
+-
+stdlib.h
+-
+android/log.h
+-
+cassert
+-
+
+/home/lei/TNN-modify/source/tnn/device/opencl/cl/opencl_program.cc
+map
+-
+string
+-
+vector
+-
+tnn/core/macro.h
+/home/lei/TNN-modify/source/tnn/device/opencl/cl/tnn/core/macro.h
+

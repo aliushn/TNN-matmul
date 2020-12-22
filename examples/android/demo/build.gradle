@@ -1,0 +1,92 @@
+//apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1000
+        versionName "1.0.0"
+
+        externalNativeBuild {
+            cmake {
+                cppFlags "-std=c++11 -frtti -fexceptions -lz -DANDROID_ARM_NEON=ON -mfpu=neon"
+                arguments "-DANDROID_STL=c++_shared"
+            }
+        }
+        ndk {
+            abiFilters "armeabi-v7a", "arm64-v8a"
+        }
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+//        debug{
+//            applicationIdSuffix ".tnnmatmul"
+//        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs', 'src/main/jni/thirdparty/hiai_ddk']
+            jni.srcDirs = ['src/main/jni']
+            assets.srcDirs = ['src/main/assets', '../../../model']
+        }
+    }
+}
+
+task deleteFiles(type: Delete) {
+    if ( file('src/main/jni/thirdparty/hiai_ddk/arm64-v8a').exists()) {
+        delete 'src/main/jni/thirdparty/hiai_ddk/arm64-v8a'
+    }
+    if (file('src/main/jni/thirdparty/hiai_ddk/armeabi-v7a').exists()) {
+        delete 'src/main/jni/thirdparty/hiai_ddk/armeabi-v7a'
+    }
+    if (file('src/main/jni/thirdparty/hiai_ddk/include').exists())
+        delete'src/main/jni/thirdparty/hiai_ddk/include'
+}
+clean.dependsOn(deleteFiles)
+
+task copyFiles(type: Copy) {
+    if (file('../../../third_party/huawei_npu/hiai_ddk_latest').exists()) {
+        from '../../../third_party/huawei_npu/hiai_ddk_latest'
+        into 'src/main/jni/thirdparty/hiai_ddk'
+    }
+}
+
+preBuild.dependsOn(copyFiles)
+
+task makeJar(type: Copy) {
+    //删除存在的
+    delete 'build/outputs/aar/plugin-release.aar'
+    delete 'libs/'
+    //设置拷贝的文件来源
+    from('build/outputs/aar/')
+    ////新生成的jar包的目录
+    into('libs/')
+    //将新生成的jar包classes.jar(新生成的jar文件名默认为classes.jar)放入上面的目录下目录下
+    include('plugin-release.aar')
+    ////重命名成我们设定的名字
+    rename ('plugin-release.aar', 'plugin.aar')
+}
+makeJar.dependsOn(build)
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:24.2.1'
+}
+
+

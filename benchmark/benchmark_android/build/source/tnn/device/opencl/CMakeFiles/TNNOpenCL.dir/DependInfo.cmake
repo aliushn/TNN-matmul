@@ -1,0 +1,117 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/convolution/opencl_conv_layer_1x1_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/convolution/opencl_conv_layer_1x1_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/convolution/opencl_conv_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/convolution/opencl_conv_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/convolution/opencl_conv_layer_acc_impl.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/convolution/opencl_conv_layer_acc_impl.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/convolution/opencl_conv_layer_common_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/convolution/opencl_conv_layer_common_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/convolution/opencl_conv_layer_depthwise_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/convolution/opencl_conv_layer_depthwise_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/deconvolution/opencl_deconv_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/deconvolution/opencl_deconv_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/deconvolution/opencl_deconv_layer_acc_impl.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/deconvolution/opencl_deconv_layer_acc_impl.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/deconvolution/opencl_deconv_layer_common_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/deconvolution/opencl_deconv_layer_common_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/deconvolution/opencl_deconv_layer_depthwise_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/deconvolution/opencl_deconv_layer_depthwise_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_abs_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_abs_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_acos_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_acos_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_add_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_add_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_arg_max_or_min_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_arg_max_or_min_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_asin_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_asin_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_atan_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_atan_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_batch_norm_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_batch_norm_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_binary_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_binary_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_ceil_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_ceil_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_clip_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_clip_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_concat_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_concat_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_cos_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_cos_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_cpu_adapter_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_cpu_adapter_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_div_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_div_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_elu_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_elu_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_exp_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_exp_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_floor_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_floor_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_hard_sigmoid_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_hard_sigmoid_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_hard_swish_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_hard_swish_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_hdr_guide_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_hdr_guide_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_inner_product_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_inner_product_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_instance_norm_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_instance_norm_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_log_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_log_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_logsigmoid_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_logsigmoid_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_max_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_max_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_min_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_min_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_mul_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_mul_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_neg_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_neg_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_normalize_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_normalize_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_pad_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_pad_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_permute_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_permute_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_pixel_shuffle_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_pixel_shuffle_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_pooling_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_pooling_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_pow_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_pow_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_prelu_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_prelu_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_prior_box_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_prior_box_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_reciprocal_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_reciprocal_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_reduce_l1_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_reduce_l1_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_reduce_l2_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_reduce_l2_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_reduce_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_reduce_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_reduce_log_sum_exp_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_reduce_log_sum_exp_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_reduce_log_sum_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_reduce_log_sum_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_reduce_max_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_reduce_max_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_reduce_mean_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_reduce_mean_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_reduce_min_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_reduce_min_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_reduce_prod_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_reduce_prod_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_reduce_sum_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_reduce_sum_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_reduce_sum_square_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_reduce_sum_square_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_relu6_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_relu6_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_relu_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_relu_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_reorg_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_reorg_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_reshape_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_reshape_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_selu_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_selu_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_shuffle_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_shuffle_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_sigmoid_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_sigmoid_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_sign_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_sign_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_signed_mul_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_signed_mul_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_sin_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_sin_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_softmax_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_softmax_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_softplus_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_softplus_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_split_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_split_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_splitv_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_splitv_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_sqrt_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_sqrt_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_stride_slice_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_stride_slice_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_sub_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_sub_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_tan_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_tan_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_tanh_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_tanh_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_unary_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_unary_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/acc/opencl_upsample_layer_acc.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/acc/opencl_upsample_layer_acc.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/cl/opencl_program.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/cl/opencl_program.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/imagebuffer_convertor.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/imagebuffer_convertor.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/opencl_blob_converter.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/opencl_blob_converter.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/opencl_context.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/opencl_context.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/opencl_device.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/opencl_device.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/opencl_mat_converter.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/opencl_mat_converter.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/opencl_memory.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/opencl_memory.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/opencl_runtime.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/opencl_runtime.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/opencl_utils.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/opencl_utils.cc.o"
+  "/home/lei/TNN-modify/source/tnn/device/opencl/opencl_wrapper.cc" "/home/lei/TNN-modify/benchmark/benchmark_android/build/source/tnn/device/opencl/CMakeFiles/TNNOpenCL.dir/opencl_wrapper.cc.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "Clang")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "GENERATE_RESOURCE"
+  "TNN_USE_OPENCL_WRAPPER"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../../../include"
+  "../../../source"
+  "../../../source/tnn/device/opencl/../../../../third_party/opencl/include"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
